@@ -9,10 +9,12 @@ function App() {
     <div>
       <BrowserRouter>
       <div>
-        <h2>Ass Monkey</h2>
+        <h2>Assortment Monkey</h2>
         <Route path="/" exact render={
           () => {
-            return ( <h1> Welcome Fish!</h1>);
+            return ( <div><h1> Welcome FRIEND!</h1>
+                      <a href='/about'>Do You Like BEans!</a><br></br>
+                      <a href='/user'>Dolphin Pizza</a></div>);
           }
         } />
         <Route path="/about" exact render={
