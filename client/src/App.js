@@ -19,12 +19,19 @@ function App() {
         } />
         <Route path="/about" exact render={
           () => {
-            return ( <h1> Wooooow!</h1>);
+            return ( <div><h1> Wooooow!</h1>
+                      <a href='/'>Saucey</a><br></br>
+                      <a href='/user'>Dolphin Pizza</a>
+            </div>);
           }
         } />
         <Route path="/user" exact render={
           () => {
-            return ( <Fish />);
+            return ( <div>
+              <a href='/about'>Do You Like BEans!</a><br></br>
+                      <a href='/'>Take Me Aaway</a>
+                      <Fish />
+            </div>);
           }
         } />
       </div>
