@@ -15,16 +15,13 @@ function App() {
           () => {
             return ( <div><h1> Welcome FRIEND!</h1>
             <Onion />
-                      <a href='/about'>Do You Like BEans!</a><br></br>
-                      <a href='/user'>Dolphin Pizza</a></div>);
+                      </div>);
           }
         } />
         <Route path="/about" exact render={
           () => {
             return ( <div><h1> Wooooow!</h1>
             <Onion />
-                      <a href='/'>Saucey</a><br></br>
-                      <a href='/user'>Dolphin Pizza</a>
             </div>);
           }
         } />
@@ -33,8 +30,6 @@ function App() {
             return ( <div>
               <Fish />
               <Onion />
-              <a href='/about'>Do You Like BEans!</a><br></br>
-                      <a href='/'>Take Me Aaway</a>
             </div>);
           }
         } />
