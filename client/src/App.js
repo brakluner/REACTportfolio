@@ -13,23 +13,23 @@ function App() {
         <h2>Ted Web World</h2>
         <Route path="/" exact render={
           () => {
-            return ( <div><h1> Welcome FRIEND!</h1>
-            <Onion />
+            return ( <div><Onion />
+            <h1> Welcome FRIEND!</h1>
                       </div>);
           }
         } />
-        <Route path="/about" exact render={
+        <Route path="/contact" exact render={
           () => {
-            return ( <div><h1> Wooooow!</h1>
-            <Onion />
+            return ( <div><Onion />
+            <h1> Wooooow!</h1>
             </div>);
           }
         } />
-        <Route path="/user" exact render={
+        <Route path="/portfolio" exact render={
           () => {
             return ( <div>
-              <Fish />
               <Onion />
+              <Fish />
             </div>);
           }
         } />
