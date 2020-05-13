@@ -3,8 +3,8 @@ import React from "react";
 
 function Fish(props) {
     
-  return (<div>
-                Duhhhhhhhhh!!!! IM A Silly FISSHHH!!! GLUB!</div>);
+  return (<h1>
+                Duhhhhhhhhh!!!! IM A Silly FISSHHH!!! GLUB!</h1>);
 }
 
 export default Fish;
