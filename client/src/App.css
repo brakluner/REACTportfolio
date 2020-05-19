@@ -76,6 +76,7 @@ img {
       display: inline;
   }
   .main{
+    color: #ffbf00;
     border-color: #3c48ff;
     background-color: #425058;
     border-style: ridge;

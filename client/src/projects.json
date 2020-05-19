@@ -10,7 +10,7 @@
       "id": 2,
       "name": "Daily Planner",
       "image": "https://i.pinimg.com/originals/7b/b7/d6/7bb7d649365dba2b6c02ad82b2b26067.png",
-      "description": "UI example, changes color with time of day.",
+      "description": "UI Changes color with time of day.",
       "location": "https://brakluner.github.io/DailyPlanner/"
     },
     {
