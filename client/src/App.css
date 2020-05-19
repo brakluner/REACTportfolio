@@ -1,4 +1,5 @@
 body {
+    font-family: 'DM Mono', monospace;
     color: #00fdc0;
     background-color: #5b002c;
 }
@@ -6,7 +7,7 @@ a {
     color: #ff0059;
 }
 img {
-    width: 350px;
+    width: 500px;
 }
 .onion {
     background: linear-gradient(0deg,#5b002c, #696fa4,#5b002c) no-repeat;
@@ -18,8 +19,54 @@ img {
     100% {background: linear-gradient(0deg,#5b002c, #a5509d,#5b002c) no-repeat;}
   }
 .card {
+    font-size: larger;
     background: linear-gradient(0deg,#5b002c, #a5509d,#5b002c) no-repeat;
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+.card {
+    background: #fff;
+    border-radius: 2px;
+    height: auto;
+    margin: 1rem;
+    position: relative;
+    width: auto;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    text-align: left;
+  }
+  
+  .card > .img-container > img {
+    width: 60%;
+  }
+
+  .odd div.card > .img-container > img {
+      float: left;
+  }
+  
+  .even div.card > .img-container > img {
+    float: right;
+}
+  
+  .card > .content > ul {
+    list-style-type: none;
+  }
+  
+  .card > .content > ul > li {
+    margin-top: 18px;
+  }
+  
+  .card > .remove {
+    color: #ff1744;
+    font-size: 48px;
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    cursor: pointer;
+  }
+  
+  .card > .remove:hover {
+    color: #d50000;
+  }
+  
+

@@ -40,7 +40,7 @@ function App() {
             return ( <div>
               <Onion />
               <Plate>
-      <h1 className="title">projects List</h1>
+      <h1 className="title">Projects List</h1>
       <Scallop
         name={projects[0].name}
         image={projects[0].image}
