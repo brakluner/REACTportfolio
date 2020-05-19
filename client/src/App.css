@@ -11,3 +11,15 @@ img {
 .onion {
     background: linear-gradient(0deg,#5b002c, #696fa4,#5b002c) no-repeat;
 }
+@keyframes example {
+    0%   {background: linear-gradient(0deg,#5b002c, #a5509d,#5b002c) no-repeat;}
+    25%  {background: linear-gradient(0deg,#5b002c, #50a581,#5b002c) no-repeat;}
+    50%  {background: linear-gradient(0deg,#5b002c, #a5a250,#5b002c) no-repeat;}
+    100% {background: linear-gradient(0deg,#5b002c, #a5509d,#5b002c) no-repeat;}
+  }
+.card {
+    background: linear-gradient(0deg,#5b002c, #a5509d,#5b002c) no-repeat;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
