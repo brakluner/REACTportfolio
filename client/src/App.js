@@ -21,8 +21,8 @@ function App() {
         <Route path="/" exact render={
           () => {
             return ( <div><Onion />
-            <img src="https://i.pinimg.com/originals/55/39/e8/5539e878a707ef6e1569d21a358fa055.jpg" />
             <h1> About ME</h1>
+            <img className="profile" src="https://i.pinimg.com/originals/55/39/e8/5539e878a707ef6e1569d21a358fa055.jpg" />
             <HeadMain />
             <Main />
                       </div>);

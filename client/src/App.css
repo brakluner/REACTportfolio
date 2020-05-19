@@ -68,5 +68,20 @@ img {
   .card > .remove:hover {
     color: #d50000;
   }
-  
+  .headmain{
+      font-size: 18px;
+      border-color: #ff6e0c;
+      background-color: #58424c;
+      border-style: ridge;
+      display: inline;
+  }
+  .main{
+    border-color: #3c48ff;
+    background-color: #425058;
+    border-style: ridge;
+}
+.profile{
+    width: 300px;
+    margin-left: 30px;
+}
 
