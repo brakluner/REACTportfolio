@@ -8,3 +8,6 @@ a {
 img {
     width: 350px;
 }
+.onion {
+    background: linear-gradient(0deg,#5b002c, #696fa4,#5b002c) no-repeat;
+}
