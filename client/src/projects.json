@@ -2,44 +2,44 @@
     {
       "id": 1,
       "name": "Quiz Application",
-      "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-      "occupation": "Fry Cook",
-      "location": "A Pineapple Under the Sea"
+      "image": "https://i.pinimg.com/originals/58/c8/81/58c881dab1661b7eef8e7d4f01d7e737.png",
+      "description": "This is a timed quiz I constructed using Jquery",
+      "location": "https://brakluner.github.io/QuizAssignment/"
     },
     {
       "id": 2,
       "name": "Daily Planner",
-      "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-      "occupation": "Restaurant Owner",
-      "location": "A Giant Anchor"
+      "image": "https://i.pinimg.com/originals/7b/b7/d6/7bb7d649365dba2b6c02ad82b2b26067.png",
+      "description": "UI example, changes color with time of day.",
+      "location": "https://brakluner.github.io/DailyPlanner/"
     },
     {
       "id": 3,
       "name": "Covid-19 Watch",
-      "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-      "occupation": "Cashier",
-      "location": "An Easter Island Head"
+      "image": "https://i.pinimg.com/originals/46/f4/c8/46f4c8e6bcad0e5baa05d3937de68861.png",
+      "description": "Covid outreach hub",
+      "location": "https://covid19-application.herokuapp.com/"
     },
     {
       "id": 4,
       "name": "Fitness Tracker",
-      "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-      "occupation": "Boy Genius",
-      "location": "A Secret Laboratory"
+      "image": "https://i.pinimg.com/originals/06/66/0b/06660bd831741a9fe1e2c67a1df468ca.png",
+      "description": "App that tracks excercise data using Mongo DB",
+      "location": "https://fitnesstrackeralpha.herokuapp.com/"
     },
     {
       "id": 5,
       "name": "These People Arent Real",
-      "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-      "occupation": "A Cowardly Dog",
-      "location": "Nowhere, Kansas"
+      "image": "https://i.pinimg.com/originals/e8/ea/67/e8ea671044934ac2434d5aa9b6e67e21.png",
+      "description": "Automatic fake person generator",
+      "location": "https://thesepeoplearentreal.herokuapp.com/"
     },
     {
       "id": 6,
       "name": "Audio Mind",
-      "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-      "occupation": "Ahhhh! A Real Monster!",
-      "location": "Under a City Dump"
+      "image": "https://i.pinimg.com/originals/a8/07/fb/a807fb0e294fc645379878dbbb799049.png",
+      "description": "Audio player and uploader",
+      "location": "https://github.com/fawzar24/AudioMind"
     }
   ]
   

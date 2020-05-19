@@ -12,14 +12,13 @@ function Scallop(props) {
             <strong>Name:</strong> {props.name}
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
+            <strong>Description:</strong> {props.description}
           </li>
           <li>
-            <strong>Address:</strong> {props.location}
+            <strong>Link:</strong> {props.location}
           </li>
         </ul>
       </div>
-      <span className="remove">𝘅</span>
     </div>
   );
 }

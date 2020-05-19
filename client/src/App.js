@@ -6,6 +6,10 @@ import Onion from './components/Onion';
 import Scallop from './components/Scallop';
 import Plate from './components/Plate';
 import projects from "./projects.json";
+import Main from "./components/Main";
+import HeadMain from "./components/HeadMain"
+import Contact from "./components/Contact"
+
 import "./App.css";
 
 function App() {
@@ -17,14 +21,17 @@ function App() {
         <Route path="/" exact render={
           () => {
             return ( <div><Onion />
-            <h1> Welcome FRIEND!</h1>
+            <img src="https://i.pinimg.com/originals/55/39/e8/5539e878a707ef6e1569d21a358fa055.jpg" />
+            <h1> About ME</h1>
+            <HeadMain />
+            <Main />
                       </div>);
           }
         } />
         <Route path="/contact" exact render={
           () => {
             return ( <div><Onion />
-            <h1> Wooooow!</h1>
+            <h1> <Contact /></h1>
             </div>);
           }
         } />
@@ -37,37 +44,37 @@ function App() {
       <Scallop
         name={projects[0].name}
         image={projects[0].image}
-        occupation={projects[0].occupation}
+        description={projects[0].description}
         location={projects[0].location}
       />
       <Scallop
         name={projects[1].name}
         image={projects[1].image}
-        occupation={projects[1].occupation}
+        description={projects[1].description}
         location={projects[1].location}
       />
       <Scallop
         name={projects[2].name}
         image={projects[2].image}
-        occupation={projects[2].occupation}
+        description={projects[2].description}
         location={projects[2].location}
       />
       <Scallop
         name={projects[3].name}
         image={projects[3].image}
-        occupation={projects[3].occupation}
+        description={projects[3].description}
         location={projects[3].location}
       />
       <Scallop
         name={projects[4].name}
         image={projects[4].image}
-        occupation={projects[4].occupation}
+        description={projects[4].description}
         location={projects[4].location}
       />
       <Scallop
         name={projects[5].name}
         image={projects[5].image}
-        occupation={projects[5].occupation}
+        description={projects[5].description}
         location={projects[5].location}
       />
     </Plate>
