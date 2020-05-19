@@ -8,6 +8,7 @@ import projects from "./projects.json";
 import Main from "./components/Main";
 import HeadMain from "./components/HeadMain"
 import Contact from "./components/Contact"
+import Parsley from "./components/Parsley"
 
 import "./App.css";
 
@@ -83,9 +84,7 @@ function App() {
         } />
       </div>
       </BrowserRouter>
-      <p>
-        Est 2019. 
-      </p>
+     <Parsley />
     </div>
   );
 }
