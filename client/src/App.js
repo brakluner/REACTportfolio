@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
-import Fish from './components/Fish';
 import Onion from './components/Onion';
 import Scallop from './components/Scallop';
 import Plate from './components/Plate';
@@ -78,7 +77,7 @@ function App() {
         location={projects[5].location}
       />
     </Plate>
-              <Fish />
+             
             </div>);
           }
         } />
