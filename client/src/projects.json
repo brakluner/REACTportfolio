@@ -9,7 +9,7 @@
     {
       "id": 2,
       "name": "Daily Planner",
-      "image": "https://i.pinimg.com/originals/7b/b7/d6/7bb7d649365dba2b6c02ad82b2b26067.png",
+      "image": "https://i.pinimg.com/originals/4a/66/7a/4a667aa8cc1c872b4d9849d8553e9b6a.png",
       "description": "UI Changes color with time of day.",
       "location": "https://brakluner.github.io/DailyPlanner/"
     },
@@ -37,7 +37,7 @@
     {
       "id": 6,
       "name": "Audio Mind",
-      "image": "https://i.pinimg.com/originals/a8/07/fb/a807fb0e294fc645379878dbbb799049.png",
+      "image": "https://i.pinimg.com/originals/9b/f0/91/9bf091f7d9120d2c17a6ea2af95836be.png",
       "description": "Audio player and uploader",
       "location": "https://github.com/fawzar24/AudioMind"
     }
