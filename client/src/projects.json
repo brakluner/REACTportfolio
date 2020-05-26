@@ -1,45 +1,45 @@
 [
-    {
-      "id": 1,
-      "name": "Quiz Application",
-      "image": "https://i.pinimg.com/originals/58/c8/81/58c881dab1661b7eef8e7d4f01d7e737.png",
-      "description": "This is a timed quiz I constructed using Jquery",
-      "location": "https://brakluner.github.io/QuizAssignment/"
-    },
+  {
+    "id": 1,
+    "name": "Audio Mind",
+    "image": "https://i.pinimg.com/originals/9b/f0/91/9bf091f7d9120d2c17a6ea2af95836be.png",
+    "description": "Audio player and uploader",
+    "location": "https://audio-mind2.herokuapp.com/"
+  },
     {
       "id": 2,
-      "name": "Daily Planner",
-      "image": "https://i.pinimg.com/originals/4a/66/7a/4a667aa8cc1c872b4d9849d8553e9b6a.png",
-      "description": "UI Changes color with time of day.",
-      "location": "https://brakluner.github.io/DailyPlanner/"
-    },
-    {
-      "id": 3,
       "name": "Covid-19 Watch",
       "image": "https://i.pinimg.com/originals/46/f4/c8/46f4c8e6bcad0e5baa05d3937de68861.png",
       "description": "Covid outreach hub",
       "location": "https://covid19-application.herokuapp.com/"
     },
     {
-      "id": 4,
-      "name": "Fitness Tracker",
-      "image": "https://i.pinimg.com/originals/06/66/0b/06660bd831741a9fe1e2c67a1df468ca.png",
-      "description": "App that tracks excercise data using Mongo DB",
-      "location": "https://fitnesstrackeralpha.herokuapp.com/"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "name": "These People Arent Real",
       "image": "https://i.pinimg.com/originals/e8/ea/67/e8ea671044934ac2434d5aa9b6e67e21.png",
       "description": "Automatic fake person generator",
       "location": "https://thesepeoplearentreal.herokuapp.com/"
     },
     {
+      "id": 4,
+      "name": "Quiz Application",
+      "image": "https://i.pinimg.com/originals/58/c8/81/58c881dab1661b7eef8e7d4f01d7e737.png",
+      "description": "This is a timed quiz I constructed using Jquery",
+      "location": "https://brakluner.github.io/QuizAssignment/"
+    },
+    {
+      "id": 5,
+      "name": "Daily Planner",
+      "image": "https://i.pinimg.com/originals/4a/66/7a/4a667aa8cc1c872b4d9849d8553e9b6a.png",
+      "description": "UI Changes color with time of day.",
+      "location": "https://brakluner.github.io/DailyPlanner/"
+    },
+    {
       "id": 6,
-      "name": "Audio Mind",
-      "image": "https://i.pinimg.com/originals/9b/f0/91/9bf091f7d9120d2c17a6ea2af95836be.png",
-      "description": "Audio player and uploader",
-      "location": "https://audio-mind2.herokuapp.com/"
+      "name": "Fitness Tracker",
+      "image": "https://i.pinimg.com/originals/06/66/0b/06660bd831741a9fe1e2c67a1df468ca.png",
+      "description": "App that tracks excercise data using Mongo DB",
+      "location": "https://fitnesstrackeralpha.herokuapp.com/"
     }
   ]
   
