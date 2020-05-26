@@ -15,31 +15,31 @@
     },
     {
       "id": 3,
+      "name": "Book Date Entry Platform",
+      "image": "https://i.pinimg.com/originals/51/d1/95/51d195f3dc730c23bd57962106d2fc7e.png",
+      "description": "App uses Mongo DB tp save personal book data. Connects to Google Books",
+      "location": "https://bookthingymobopper.herokuapp.com/"
+    },
+    {
+      "id": 4,
       "name": "These People Arent Real",
       "image": "https://i.pinimg.com/originals/e8/ea/67/e8ea671044934ac2434d5aa9b6e67e21.png",
       "description": "Automatic fake person generator",
       "location": "https://thesepeoplearentreal.herokuapp.com/"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Quiz Application",
       "image": "https://i.pinimg.com/originals/58/c8/81/58c881dab1661b7eef8e7d4f01d7e737.png",
       "description": "This is a timed quiz I constructed using Jquery",
       "location": "https://brakluner.github.io/QuizAssignment/"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Daily Planner",
       "image": "https://i.pinimg.com/originals/4a/66/7a/4a667aa8cc1c872b4d9849d8553e9b6a.png",
       "description": "UI Changes color with time of day.",
       "location": "https://brakluner.github.io/DailyPlanner/"
-    },
-    {
-      "id": 6,
-      "name": "Fitness Tracker",
-      "image": "https://i.pinimg.com/originals/06/66/0b/06660bd831741a9fe1e2c67a1df468ca.png",
-      "description": "App that tracks excercise data using Mongo DB",
-      "location": "https://fitnesstrackeralpha.herokuapp.com/"
     }
   ]
   
