@@ -51,6 +51,10 @@ img {
     width: 45%;
   }
 
+  .img-container > img {
+    position: absolute;
+  }
+
   
   .card > .content > ul {
     list-style-type: none;

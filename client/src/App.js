@@ -11,13 +11,14 @@ import Contact from "./components/Contact";
 import Parsley from "./components/Parsley";
 import Shrimp from "./components/Shrimp";
 import Snail from "./components/Snail";
-import { profilePic, scurryScallop } from "./lib/effects";
+import { profilePic, scurryScallop, scurryShrimp } from "./lib/effects";
 
 import "./App.css";
 
 export default class App extends Component {
   componentDidMount(){
     scurryScallop();
+    scurryShrimp();
   }
 
   render() {
@@ -55,7 +56,7 @@ export default class App extends Component {
         description={projects[0].description}
         location={projects[0].location}
       />
-      <Shrimp
+      <Shrimp onClick={scurryShrimp}
         name={projects[1].name}
         image={projects[1].image}
         description={projects[1].description}
