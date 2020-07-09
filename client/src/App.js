@@ -6,13 +6,25 @@ import Scallop from './components/Scallop';
 import Plate from './components/Plate';
 import projects from "./projects.json";
 import Main from "./components/Main";
-import HeadMain from "./components/HeadMain"
-import Contact from "./components/Contact"
-import Parsley from "./components/Parsley"
+import HeadMain from "./components/HeadMain";
+import Contact from "./components/Contact";
+import Parsley from "./components/Parsley";
+import Shrimp from "./components/Shrimp";
+import Snail from "./components/Snail";
+import $ from "jquery";
 
 import "./App.css";
 
-function App() {
+export default class App extends Component {
+  jQuerycode = () => {
+    $(".card").hover(function(){
+      $(".img-container").animate({height: "10px"});
+    });
+  }
+  componentDidMount() {
+    this.jQuerycode();
+  }
+  render() {
   return (
     <div>
       <BrowserRouter>
@@ -47,11 +59,23 @@ function App() {
         description={projects[0].description}
         location={projects[0].location}
       />
-      <Scallop
+      <Shrimp
         name={projects[1].name}
         image={projects[1].image}
         description={projects[1].description}
         location={projects[1].location}
+      />
+      <Snail
+        name={projects[6].name}
+        image={projects[6].image}
+        description={projects[6].description}
+        location={projects[6].location}
+      />
+      <Shrimp
+        name={projects[3].name}
+        image={projects[3].image}
+        description={projects[3].description}
+        location={projects[3].location}
       />
       <Scallop
         name={projects[2].name}
@@ -59,19 +83,13 @@ function App() {
         description={projects[2].description}
         location={projects[2].location}
       />
-      <Scallop
-        name={projects[3].name}
-        image={projects[3].image}
-        description={projects[3].description}
-        location={projects[3].location}
-      />
-      <Scallop
+      <Shrimp
         name={projects[4].name}
         image={projects[4].image}
         description={projects[4].description}
         location={projects[4].location}
       />
-      <Scallop
+      <Snail
         name={projects[5].name}
         image={projects[5].image}
         description={projects[5].description}
@@ -89,5 +107,4 @@ function App() {
   );
 }
 
-
-export default App;
+}

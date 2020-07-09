@@ -40,6 +40,13 @@
       "image": "https://i.pinimg.com/originals/4a/66/7a/4a667aa8cc1c872b4d9849d8553e9b6a.png",
       "description": "UI Changes color with time of day.",
       "location": "https://brakluner.github.io/DailyPlanner/"
+    },
+    {
+      "id": 7,
+      "name": "Beach Ted Web World",
+      "image": "https://i.pinimg.com/originals/15/ab/59/15ab59ffb29c9135889d990c9c2edbdf.png",
+      "description": "Beach themed static website.",
+      "location": "https://github.com/brakluner/BeachThemeTedWebWorld"
     }
   ]
   

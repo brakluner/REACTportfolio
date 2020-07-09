@@ -1,9 +1,8 @@
 import React from "react";
-import $ from 'jquery';
 
-function Scallop(props) {
+function Snail(props) {
   return (
-    <div className="card scallop">
+    <div className="card snail">
       <div className="img-container">
         <img alt={props.name} src={props.image} />
       </div>
@@ -20,11 +19,8 @@ function Scallop(props) {
           </li>
         </ul>
       </div>
-      <script>{$(".card").hover(function(){
-  $(".img-container").animate({height: "10px"});
-})}</script>
     </div>
   );
 }
 
-export default Scallop;
+export default Snail;

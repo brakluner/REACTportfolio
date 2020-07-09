@@ -33,20 +33,24 @@ img {
     position: relative;
     width: auto;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  }
+
+  .scallop {
     text-align: left;
+  }
+
+  .shrimp {
+    text-align: center;
+  }
+
+  .snail {
+    text-align: right;
   }
   
   .card > .img-container > img {
-    width: 60%;
+    width: 45%;
   }
 
-  .odd div.card > .img-container > img {
-      float: left;
-  }
-  
-  .even div.card > .img-container > img {
-    float: right;
-}
   
   .card > .content > ul {
     list-style-type: none;
