@@ -27,7 +27,7 @@ export default class App extends Component {
           () => {
             return ( <div><Onion />
             <h1> About ME</h1>
-            <img onClick={profilePic} className="profile" src="https://i.pinimg.com/originals/55/39/e8/5539e878a707ef6e1569d21a358fa055.jpg" />
+            <img onClick={profilePic} onMouseEnter={profilePic} className="profile" src="https://i.pinimg.com/originals/55/39/e8/5539e878a707ef6e1569d21a358fa055.jpg" />
             <HeadMain />
             <Main />
                       </div>);
