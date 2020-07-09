@@ -1,5 +1,4 @@
 import React from "react";
-import $ from 'jquery';
 
 function Scallop(props) {
   return (
@@ -20,9 +19,6 @@ function Scallop(props) {
           </li>
         </ul>
       </div>
-      <script>{$(".card").hover(function(){
-  $(".img-container").animate({height: "10px"});
-})}</script>
     </div>
   );
 }

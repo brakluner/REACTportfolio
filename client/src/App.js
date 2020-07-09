@@ -11,19 +11,12 @@ import Contact from "./components/Contact";
 import Parsley from "./components/Parsley";
 import Shrimp from "./components/Shrimp";
 import Snail from "./components/Snail";
-import $ from "jquery";
+import { jQuerycode } from "./lib/effects";
 
 import "./App.css";
 
 export default class App extends Component {
-  jQuerycode = () => {
-    $(".card").hover(function(){
-      $(".img-container").animate({height: "10px"});
-    });
-  }
-  componentDidMount() {
-    this.jQuerycode();
-  }
+  
   render() {
   return (
     <div>
@@ -34,7 +27,7 @@ export default class App extends Component {
           () => {
             return ( <div><Onion />
             <h1> About ME</h1>
-            <img className="profile" src="https://i.pinimg.com/originals/55/39/e8/5539e878a707ef6e1569d21a358fa055.jpg" />
+            <img onClick={jQuerycode} className="profile" src="https://i.pinimg.com/originals/55/39/e8/5539e878a707ef6e1569d21a358fa055.jpg" />
             <HeadMain />
             <Main />
                       </div>);
@@ -108,3 +101,4 @@ export default class App extends Component {
 }
 
 }
+
