@@ -16,3 +16,15 @@ export const profilePic = () => {
       teas.animate({fontSize: "100px"}, "slow");
     });
   }
+
+
+  export const scurryScallop = () => {
+    $(".scallop").hover(function(){
+      var scal = $(".scallop");
+      scal.animate({height: "100px"}, "slow");
+      scal.animate({width: "300px"}, "slow");
+      scal.animate({height: "300px"}, "slow");
+      scal.animate({width: "100px"}, "slow");
+      scal.animate({height: "100px", width: ""}, "slow");
+    });
+  }

@@ -11,12 +11,15 @@ import Contact from "./components/Contact";
 import Parsley from "./components/Parsley";
 import Shrimp from "./components/Shrimp";
 import Snail from "./components/Snail";
-import { profilePic } from "./lib/effects";
+import { profilePic, scurryScallop } from "./lib/effects";
 
 import "./App.css";
 
 export default class App extends Component {
-  
+  componentDidMount(){
+    scurryScallop();
+  }
+
   render() {
   return (
     <div>
@@ -46,7 +49,7 @@ export default class App extends Component {
               <Onion />
               <Plate>
       <h1 className="title">Projects List</h1>
-      <Scallop
+      <Scallop onClick={scurryScallop}
         name={projects[0].name}
         image={projects[0].image}
         description={projects[0].description}
