@@ -72,14 +72,12 @@ export const profilePic = () => {
 
 export const scurrySeahorse = () => {
   
-  
-  setTimeout(function(){
     $('.seahorse').ready(function () {
-      var audio1 = document.createElement("audio")
-      audio1.setAttribute("src", "../assets/audio/break.wav");
-      audio1.play();
-
-     }, 100);
+      var audio2 = document.createElement("audio")
+      audio2.setAttribute("src", "https://wav-sounds.com/wp-content/uploads/2017/09/Parody-08.wav");
+      audio2.play();
+      setTimeout(function(){ scurrySeahorse()
+     }, 50000);
     ;
 });
 
