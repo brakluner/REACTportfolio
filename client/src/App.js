@@ -11,7 +11,7 @@ import Contact from "./components/Contact";
 import Parsley from "./components/Parsley";
 import Shrimp from "./components/Shrimp";
 import Snail from "./components/Snail";
-import { profilePic, scurryScallop, scurryShrimp } from "./lib/effects";
+import { profilePic, scurryScallop, scurryShrimp, scurrySnail } from "./lib/effects";
 
 import "./App.css";
 
@@ -65,7 +65,7 @@ export default class App extends Component {
         description={projects[1].description}
         location={projects[1].location}
       />
-      <Snail
+      <Snail {...scurrySnail()}
         name={projects[6].name}
         image={projects[6].image}
         description={projects[6].description}

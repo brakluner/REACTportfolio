@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import { rotate } from './rotate';
 
 export const profilePic = () => {
     $(".profile").hover(function(){
@@ -44,6 +45,29 @@ export const profilePic = () => {
       scurryShrimp();
     });
   }
+
+
+  export const scurrySnail = () => {
+    $('.snail').ready(function () {
+      rotate()
+      if (!$('.snail').is(':animated')) {
+          $(".complete").remove();
+      }
+  
+      $('.snail').rotate(-1500, {
+          duration: 1500,
+          complete: function() {
+              $(".ani-status").remove();
+          }
+      });
+  
+  });
+  
+      scurryShrimp();
+    };
+
+    
+  
 
   // function autostart() {var i
   //   ;
