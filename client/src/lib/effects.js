@@ -49,6 +49,9 @@ export const profilePic = () => {
 
   export const scurrySnail = () => {
     $('.snail').ready(function () {
+      var audio1 = document.createElement("audio")
+      audio1.setAttribute("src", 'https://freewavesamples.com/files/8-Bit-Noise-1.wav');
+      audio1.play();
       rotate()
       if (!$('.snail').is(':animated')) {
           $(".complete").remove();
@@ -65,6 +68,22 @@ export const profilePic = () => {
   });
   
   
+}
+
+export const scurrySeahorse = () => {
+  
+  
+  setTimeout(function(){
+    $('.seahorse').ready(function () {
+      var audio1 = document.createElement("audio")
+      audio1.setAttribute("src", "../assets/audio/break.wav");
+      audio1.play();
+
+     }, 100);
+    ;
+});
+
+
 }
   
 
