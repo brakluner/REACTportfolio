@@ -19,7 +19,7 @@ export const profilePic = () => {
 
 
   export const scurryScallop = () => {
-    $(".scallop").hover(function(){
+    $(".scallop").ready(function(){
       var scal = $(".scallop");
       scal.animate({padding: "0 0 0 10px"}, "slow");
       scal.animate({padding: "0 0 0 20px"}, "slow");
@@ -30,15 +30,28 @@ export const profilePic = () => {
       scal.animate({padding: "0 0 0 70px"}, "slow");
       scal.animate({padding: "0 0 0 80px"}, "slow");
       scal.animate({padding: "0 0 0 90px"}, "slow");
+      scurryScallop();
     });
   }
 
   export const scurryShrimp = () => {
-    $(".shrimp").hover(function(){
+    $(".shrimp").ready(function(){
       var scal = $(".shrimp");
       scal.animate({left: "700px"}, "slow");
       scal.animate({left: "0px"}, "slow");
       scal.animate({right: "700px"}, "slow");
       scal.animate({right: ""}, "slow");
+      scurryShrimp();
     });
   }
+
+  // function autostart() {var i
+  //   ;
+  
+  // for (i = 0; i < 10; i += 1) {
+  //   setTimeout(function () {
+  //     scurryShrimp();
+  //     scurryScallop();
+  //     console.log(i);
+  //   }, 4);
+  // }window.onload = autostart}

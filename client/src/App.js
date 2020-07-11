@@ -15,7 +15,10 @@ import { profilePic, scurryScallop, scurryShrimp } from "./lib/effects";
 
 import "./App.css";
 
+
+    
 export default class App extends Component {
+
   componentDidMount(){
     scurryScallop();
     scurryShrimp();
@@ -50,13 +53,13 @@ export default class App extends Component {
               <Onion />
               <Plate>
       <h1 className="title">Projects List</h1>
-      <Scallop onClick={scurryScallop}
+      <Scallop {...scurryScallop()}
         name={projects[0].name}
         image={projects[0].image}
         description={projects[0].description}
         location={projects[0].location}
       />
-      <Shrimp onClick={scurryShrimp}
+      <Shrimp {...scurryShrimp()}
         name={projects[1].name}
         image={projects[1].image}
         description={projects[1].description}
