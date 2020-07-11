@@ -60,13 +60,12 @@ export const profilePic = () => {
               $(".ani-status").remove();
           }
       });
-  
+      setTimeout(function(){ scurrySnail(); }, 10000);
+      ;
   });
   
-      scurryShrimp();
-    };
-
-    
+  
+}
   
 
   // function autostart() {var i
