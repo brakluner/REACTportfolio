@@ -1,4 +1,5 @@
 import React from "react";
+import Seahorse from "./Seahorse";
 
 var path = window.location.pathname
 
@@ -14,7 +15,7 @@ function Onion(props) {
     <a href='/portfolio'>Portfolio</a></div>);
 } else if (path === '/portfolio') {
     return (<div className="onion"><h2>Portfolio</h2><a href='/contact'>Contact</a><br></br>
-    <a href='/'>Home</a></div>)
+    <a href='/'>Home</a><Seahorse /></div>)
 }
 }
 export default Onion;
