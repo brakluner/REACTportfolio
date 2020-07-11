@@ -11,7 +11,7 @@ import Contact from "./components/Contact";
 import Parsley from "./components/Parsley";
 import Shrimp from "./components/Shrimp";
 import Snail from "./components/Snail";
-import { profilePic, scurryScallop, scurryShrimp, scurrySnail, scurrySeahorse } from "./lib/effects";
+import { scurryScallop, scurryShrimp, scurrySnail, scurrySeahorse, runPic } from "./lib/effects";
 
 import "./App.css";
 
@@ -22,6 +22,7 @@ export default class App extends Component {
   componentDidMount(){
     scurryScallop();
     scurryShrimp();
+    runPic();
   }
 
   render() {
@@ -34,7 +35,7 @@ export default class App extends Component {
           () => {
             return ( <div><Onion />
             <h1> About ME</h1>
-            <img onClick={profilePic} onMouseEnter={profilePic} className="profile" src="https://i.pinimg.com/originals/55/39/e8/5539e878a707ef6e1569d21a358fa055.jpg" />
+            <img {...runPic()} className="profile" src="https://i.pinimg.com/originals/55/39/e8/5539e878a707ef6e1569d21a358fa055.jpg" />
             <HeadMain />
             <Main />
                       </div>);

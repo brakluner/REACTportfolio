@@ -2,7 +2,7 @@ import $ from 'jquery';
 import { rotate } from './rotate';
 
 export const profilePic = () => {
-    $(".profile").hover(function(){
+    $(".profile").ready(function(){
       var scal = $(".profile");
       var teas = $('.teaser');
       scal.animate({height: "100px"}, "slow");
@@ -84,6 +84,11 @@ export const scurrySeahorse = () => {
 
 }
   
+export const runPic = () => {
+  setTimeout(function(){ 
+    profilePic();
+  }, 1000);;
+}
 
   // function autostart() {var i
   //   ;
