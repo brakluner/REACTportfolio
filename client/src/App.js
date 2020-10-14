@@ -35,7 +35,7 @@ export default class App extends Component {
           () => {
             return ( <div><Onion />
             <h1> About ME</h1>
-            <img {...runPic()} className="profile" src="https://i.pinimg.com/originals/55/39/e8/5539e878a707ef6e1569d21a358fa055.jpg" />
+            <img {...runPic()} className="profile" src="https://i.pinimg.com/originals/6a/dd/0c/6add0c6c3e875d444f87f2966bcf786b.jpg" />
             <HeadMain />
             <Main />
                       </div>);
